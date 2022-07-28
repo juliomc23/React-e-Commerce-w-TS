@@ -1,0 +1,23 @@
+.ul__navbarheader{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 0.85;
+}
+
+.li__navbarheader:last-child{
+    margin-right: -15rem;
+}
+
+.li__navbarheader:first-child{
+    margin-left: 2rem;
+}
+
+.li__navbarheader{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 1.65rem;
+}

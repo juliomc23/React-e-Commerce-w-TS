@@ -1,0 +1,20 @@
+.header__div{
+    display: flex;
+    flex-direction: column;
+}
+
+.div__componentsheader{
+    height: 3.75rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img__logoheader{
+    width: 3.75rem;
+    height: 3.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+}

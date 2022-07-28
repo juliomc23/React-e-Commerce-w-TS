@@ -1,0 +1,28 @@
+.div__loginheader{
+    height: 2.25rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #F5F5F5;
+}
+
+.div__loginheader:last-child{
+    padding-right: 1.5rem;
+}
+
+.div__separator{
+    border: 1px solid rgb(153, 153, 153);
+    height: 0.8rem;
+}
+
+.a__linkheader{
+    font-size: 0.75rem;
+    color: rgb(54, 54, 54);
+    text-decoration: none;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.a__linkheader:hover{
+    color: rgb(126, 126, 126);
+}
