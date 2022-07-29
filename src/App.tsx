@@ -1,12 +1,14 @@
+import BodyComponent from "./components/Body/ts/BodyComponent"
 import HeaderComponent from "./components/Header/ts/HeaderComponent"
-import GlobalContext from "./components/Context/GlobalContext"
+import CartContext from "./context/GlobalContext"
 
 function App() {
 
   return (
-    <GlobalContext>
+    <CartContext>
       <HeaderComponent />
-    </GlobalContext>
+      <BodyComponent />
+    </CartContext>
   )
 }
 

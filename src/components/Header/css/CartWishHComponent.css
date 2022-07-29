@@ -1,0 +1,6 @@
+.div_wishcartHeader{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 0.02;
+}
