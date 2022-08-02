@@ -1,0 +1,31 @@
+.divbody__products{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.divbody__singleproduct{
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.125rem;
+}
+
+.img__productbody{
+    max-height: 30.5rem;
+    max-width: 30.5rem;
+}
+
+.divinfo__singleproduct{
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.span__product{
+    color: #7a7a7a;
+}

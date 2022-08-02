@@ -1,11 +1,14 @@
 .carousel__item{
     height: 3.563rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-color: #f5f5f5;
     border-bottom: 1px solid #e0e0e0;
+}
+
+.swiper-slide{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .p__sliderHtitle{

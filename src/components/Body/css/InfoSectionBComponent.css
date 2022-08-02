@@ -1,0 +1,40 @@
+.infoheader__sectionbody{
+    height: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-bottom: 1rem;
+}
+
+.infoheader_spanheader{
+    font-size: 1.5rem;
+}
+
+.infobuttons__filters{
+    display: flex;
+    flex-grow: 0.02;
+    justify-content: space-between;
+    font-size: 1rem;
+}
+
+.infobutton__hidefilter{
+    width: 8.2rem;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.infobutton__selectfilter{
+    width: 7.3rem;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+}

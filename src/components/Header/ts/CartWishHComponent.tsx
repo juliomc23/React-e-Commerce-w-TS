@@ -9,8 +9,12 @@ import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlin
 const CartWishHComponent = () => {
   return (
     <div className='div_wishcartHeader'>
-        <FavoriteBorderOutlinedIcon sx={{ fontSize: 30 }}/>
-        <WorkOutlineOutlinedIcon sx={{ fontSize: 30 }}/>
+      <FavoriteBorderOutlinedIcon sx={{ fontSize: 30 }} />
+      <div className='carth__div'>
+        <WorkOutlineOutlinedIcon sx={{ fontSize: 30 }} />
+        <span className='cartspan__length'>0</span>
+      </div>
+
     </div>
   )
 }

@@ -1,4 +1,10 @@
-import { useEffect, useState } from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper';
+
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 
 import '../css/SliderHComponent.css'
 
@@ -32,19 +38,21 @@ const sliderArray = [
 
 function SliderHComponent() {
 
-    const [counter, setCounter] = useState<number>(0)
-
-    useEffect(() => {
-        setInterval(() => {
-            setCounter(counter => counter >= sliderArray.length - 1 ? 0 : counter + 1)
-        }, 10000);
-    }, []);
-
     return (
-        <div className='carousel__item'>
-            <p className='p__sliderHtitle'>{sliderArray[counter].title}</p>
-            <a className='a_sliderHinfo' href=''>More info</a>
-        </div>
+        <Swiper
+            modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
+            autoplay={{
+                delay: 10000,
+            }}
+            slidesPerView={1}
+            className='carousel__item'
+        >
+            {sliderArray.map(slide =>
+                <SwiperSlide key={slide.id}>
+                    <p className='p__sliderHtitle'>{slide.title}</p>
+                    <a className='a_sliderHinfo' href=''>More info</a>
+                </SwiperSlide>)}
+        </Swiper>
 
     )
 }
