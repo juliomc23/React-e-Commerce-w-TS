@@ -1,11 +1,7 @@
-import React from 'react'
-
-import '../css/CartWishHComponent.css'
-import { AiOutlineHeart, AiOutlineShoppingCart } from "react-icons/ai";
-
 import WorkOutlineOutlinedIcon from '@mui/icons-material/WorkOutlineOutlined';
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 
+import '../css/CartWishHComponent.css'
 const CartWishHComponent = () => {
   return (
     <div className='div_wishcartHeader'>

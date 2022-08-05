@@ -11,7 +11,8 @@
         "up": "https://static.nike.com/a/images/t_prod_sc/w_640,c_limit,f_auto/64cdfc39-c9ef-4e7f-80f2-706bf7e37c8e/fecha-de-lanzamiento-de-las-air-jordan%C2%A02-x-maison-ch%C3%A2teau-rouge-orange-and-sail-do5254-180.jpg"
       },
       "type": "Zapatillas",
-      "available_colors": 1
+      "available_colors": 1,
+      "sizes" : [38.5, 39, 40, 40.5, 41, 42, 42.5, 43, 44, 44.5]
     },
     {
       "id": 101,
@@ -24,7 +25,8 @@
         "up": "https://static.nike.com/a/images/t_prod_sc/w_640,c_limit,f_auto/6c5fa8d0-92af-4486-a47e-e0f2981b0ae7/fecha-de-lanzamiento-de-las-air-kukini-se-lemon-venom-and-aurora-dv1902-100.jpg"
       },
       "type": "Zapatillas",
-      "available_colors": 1
+      "available_colors": 1,
+      "sizes" : [38.5, 39, 40, 40.5, 41, 42, 42.5, 43, 44, 44.5]
     },
     {
       "id": 102,
@@ -37,7 +39,8 @@
         "up": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/a28adc58-d836-47fc-b282-22b136995ac7/air-force-1-07-lv8-zapatillas-JfJSnH.png"
       },
       "type": "Zapatillas - Hombre",
-      "available_colors": 2
+      "available_colors": 2,
+      "sizes" : [38.5, 39, 40, 40.5, 41, 42, 42.5, 43, 44, 44.5]
     },
     {
       "id": 103,
@@ -50,7 +53,8 @@
         "up": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/ff7f17b5-b35b-4215-9d9b-4f01557ebee3/air-force-1-07-zapatillas-KprQCr.png"
       },
       "type": "Zapatillas",
-      "available_colors": 3
+      "available_colors": 3,
+      "sizes" : [38.5, 39, 40, 40.5, 41, 42, 42.5, 43, 44, 44.5]
     },
     {
       "id": 104,
@@ -63,7 +67,8 @@
         "up": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/a612ca4f-466e-4327-a262-c62b927dd547/zoomx-invincible-run-flyknit-2-zapatillas-de-running-asfalto-VWFZPV.png"
       },
       "type": "Chanclas",
-      "available_colors": 3
+      "available_colors": 3,
+      "sizes" : [38.5, 39, 40, 40.5, 41, 42, 42.5, 43, 44, 44.5]
     },
     {
       "id": 105,
@@ -76,7 +81,8 @@
         "up": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/fd272031-3a27-4975-8153-3466314e21a3/air-zoom-pegasus-39-zapatillas-de-running-asfalto-JNVFbf.png"
       },
       "type": "Zapatillas - Hombre",
-      "available_colors": 1
+      "available_colors": 1,
+      "sizes" : [38.5, 39, 40, 40.5, 41, 42, 42.5, 43, 44, 44.5]
     },
     {
       "id": 106,
@@ -89,7 +95,8 @@
         "up": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/295db80c-ccd9-4998-8fcc-ae21963042cd/blazer-low-77-prm-zapatillas-MxV9Vg.png"
       },
       "type": "Zapatillas - Hombre",
-      "available_colors": 1
+      "available_colors": 1,
+      "sizes" : [38.5, 39, 40, 40.5, 41, 42, 42.5, 43, 44, 44.5]
     },
     {
       "id": 107,
@@ -102,7 +109,8 @@
         "up": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/e273284c-f6a2-40b6-8afb-4df3f26fa385/air-max-90-g-zapatillas-de-golf-h2bsXX.png"
       },
       "type": "Zapatillas",
-      "available_colors": 3
+      "available_colors": 3,
+      "sizes" : [38.5, 39, 40, 40.5, 41, 42, 42.5, 43, 44, 44.5]
     },
     {
       "id": 108,
@@ -115,7 +123,8 @@
         "up": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/b2e6f034-a6e2-48b3-b3b3-5715edec1409/air-zoom-vomero-16-zapatillas-de-running-carretera-43VVMR.png"
       },
       "type": "Zapatillas - Hombre",
-      "available_colors": 2
+      "available_colors": 2,
+      "sizes" : [38.5, 39, 40, 40.5, 41, 42, 42.5, 43, 44, 44.5]
     },
     {
       "id": 109,
@@ -128,7 +137,8 @@
         "up": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/92cd2c7f-13e6-4d54-8ea4-75dae44c6c9e/air-zoom-structure-24-zapatillas-de-running-asfalto-hHTmXR.png"
       },
       "type": "Zapatillas",
-      "available_colors": 1
+      "available_colors": 1,
+      "sizes" : [38.5, 39, 40, 40.5, 41, 42, 42.5, 43, 44, 44.5]
     },
     {
       "id": 110,
@@ -141,7 +151,8 @@
         "up": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/e393da49-ffe3-433c-93dc-f829333e5b93/air-max-plus-iii-zapatillas-3BSBtx.png"
       },
       "type": "Chanclas",
-      "available_colors": 2
+      "available_colors": 2,
+      "sizes" : [38.5, 39, 40, 40.5, 41, 42, 42.5, 43, 44, 44.5]
     },
     {
       "id": 111,
@@ -154,7 +165,8 @@
         "up": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/d5c5360c-0237-440a-9903-0632c5f65f1f/waffle-one-se-zapatillas-mT3CQN.png"
       },
       "type": "Zapatillas - Hombre",
-      "available_colors": 2
+      "available_colors": 2,
+      "sizes" : [38.5, 39, 40, 40.5, 41, 42, 42.5, 43, 44, 44.5]
     },
     {
       "id": 112,
@@ -167,7 +179,8 @@
         "up": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/f9e0e58a-584f-4e26-97fa-71d95165e558/air-max-terrascape-90-zapatillas-CRn0XW.png"
       },
       "type": "Zapatillas",
-      "available_colors": 1
+      "available_colors": 1,
+      "sizes" : [38.5, 39, 40, 40.5, 41, 42, 42.5, 43, 44, 44.5]
     },
     {
       "id": 113,
@@ -180,7 +193,8 @@
         "up": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/5926c646-1221-4afd-a756-372035bd4d90/air-force-1-crater-flyknit-next-nature-zapatillas-qHncTB.png"
       },
       "type": "Zapatillas",
-      "available_colors": 1
+      "available_colors": 1,
+      "sizes" : [38.5, 39, 40, 40.5, 41, 42, 42.5, 43, 44, 44.5]
     },
     {
       "id": 114,
@@ -193,7 +207,8 @@
         "up": "https://static.nike.com/a/images/t_prod_sc/w_640,c_limit,f_auto/c8be9a0f-ce1f-4250-87e8-bd1860040bec/fecha-de-lanzamiento-de-las-air-kukini-se-summit-white-and-aviator-grey-dv1894-100.jpg"
       },
       "type": "Zapatillas",
-      "available_colors": 3
+      "available_colors": 3,
+      "sizes" : [38.5, 39, 40, 40.5, 41, 42, 42.5, 43, 44, 44.5]
     },
     {
       "id": 115,
@@ -206,7 +221,8 @@
         "up": "https://static.nike.com/a/images/t_prod_sc/w_640,c_limit,f_auto/446442f8-706b-4fc8-be95-387ec78d9fd5/fecha-de-lanzamiento-de-las-jordan-delta%C2%A03-pink-foam-dd9361-601.jpg"
       },
       "type": "Zapatillas - Hombre",
-      "available_colors": 1
+      "available_colors": 1,
+      "sizes" : [38.5, 39, 40, 40.5, 41, 42, 42.5, 43, 44, 44.5]
     },
     {
       "id": 116,
@@ -219,7 +235,8 @@
         "up": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/33533fe2-1157-4001-896e-1803b30659c8/air-force-1-07-zapatillas-DMJP7P.png"
       },
       "type": "Zapatillas",
-      "available_colors": 2
+      "available_colors": 2,
+      "sizes" : [38.5, 39, 40, 40.5, 41, 42, 42.5, 43, 44, 44.5]
     },
     {
       "id": 117,
@@ -232,7 +249,8 @@
         "up": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/577418db-f3d5-4483-b73b-15248cade4e6/custom-nike-dunk-unlocked-by-you.png"
       },
       "type": "Zapatillas",
-      "available_colors": 1
+      "available_colors": 1,
+      "sizes" : [38.5, 39, 40, 40.5, 41, 42, 42.5, 43, 44, 44.5]
     }
   ]
 }

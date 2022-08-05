@@ -1,0 +1,28 @@
+.divlist__footerul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.ul__footer {
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style: none;
+    color: #ccc;
+}
+
+.ul__footer:nth-child(1) {
+    height: 15.5rem;
+    font-weight: bold;
+    color: white;
+}
+.ul__footer:nth-child(2) {
+    height: 13rem;
+}
+
+.li__footeroption{
+    font-weight: bold;
+    color: white;
+}

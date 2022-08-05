@@ -3,14 +3,13 @@ import InfoSectionBComponent from "./InfoSectionBComponent"
 import FilterBComponent from "./FilterBComponent"
 
 import { useContext } from "react"
-import { cartContext } from "../../../context/GlobalContext"
+import { globalContext } from "../../../context/GlobalContext"
 
 import '../css/BodyComponent.css'
 
 function BodyComponent() {
 
-  const { products } = useContext(cartContext)
-
+  const { products } = useContext(globalContext)
 
   return (
     <div className="body__div">

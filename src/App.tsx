@@ -1,14 +1,18 @@
 import BodyComponent from "./components/Body/ts/BodyComponent"
+import FooterComponent from "./components/Footer/ts/FooterComponent"
 import HeaderComponent from "./components/Header/ts/HeaderComponent"
-import CartContext from "./context/GlobalContext"
+import GlobalContext from "./context/GlobalContext"
+
+import Router from '../Router.jsx'
 
 function App() {
 
   return (
-    <CartContext>
+    <GlobalContext>
       <HeaderComponent />
-      <BodyComponent />
-    </CartContext>
+      <Router />
+      <FooterComponent />
+    </GlobalContext>
   )
 }
 

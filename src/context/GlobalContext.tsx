@@ -2,19 +2,7 @@ import { createContext, useEffect, useState } from 'react'
 
 import { fetchProducts } from ".././services/products"
 
-interface products {
-    id: number
-    img: {
-        front: string
-        up: string
-        down: string
-        aside: string
-    }
-    title: string
-    price: number
-    type: string
-    available_colors: number
-}
+import {products} from '../interfaces/products'
 
 interface contextProps {
     counter: number
@@ -23,7 +11,7 @@ interface contextProps {
     setProducts: React.Dispatch<React.SetStateAction<products[]>>
 }
 
-export const cartContext = createContext<contextProps>({} as contextProps)
+export const globalContext = createContext<contextProps>({} as contextProps)
 
 interface props {
     children: JSX.Element | JSX.Element[] //si alguna vez queremos pasar por props una funcion tenemos que decirle aqui lo que recibiriamos ya que solo estamos recibiendo jsx.element
@@ -31,28 +19,27 @@ interface props {
 
 
 
-function CartContext({ children }: props) {
-
+function GlobalContext({ children }: props) {
     const [counter, setCounter] = useState(0)
 
     const [products, setProducts] = useState<products[]>([])
 
-    useEffect(() => {
-        const getData = async () => {
-            const res = await fetchProducts()
-            setProducts(res)
-            return res
-        }
+    const getData = async () => {
+        const res = await fetchProducts()
+        setProducts(res)
+        return res
+    }
 
+    useEffect(() => {
         getData()
     }, [])
 
 
     return (
-        <cartContext.Provider value={{ counter, setCounter, products, setProducts }}>
+        <globalContext.Provider value={{ counter, setCounter, products, setProducts }}>
             {children}
-        </cartContext.Provider>
+        </globalContext.Provider>
     )
 }
 
-export default CartContext
+export default GlobalContext

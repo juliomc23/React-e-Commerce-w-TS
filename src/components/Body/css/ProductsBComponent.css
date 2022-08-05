@@ -10,6 +10,8 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 1.125rem;
+    color: black;
+    text-decoration: none;
 }
 
 .img__productbody{
@@ -18,12 +20,20 @@
 }
 
 .divinfo__singleproduct{
-    height: 5rem;
+    min-height: 11.563rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.divinfo__productbody{
+    min-height: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    font-size: 1rem;
 }
 
 .span__product{
