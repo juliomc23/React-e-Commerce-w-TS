@@ -1,42 +1,45 @@
-import { createContext, useEffect, useState } from 'react'
+import { createContext, useEffect, useReducer, useState } from 'react'
 
 import { fetchProducts } from ".././services/products"
+import { cartInitialState, cartReducer, ActionType } from '../components/Reducer/CartReducer'
 
-import {products} from '../interfaces/products'
+import { Products } from '../interfaces/products'
+import { CartState } from '../interfaces/state'
 
 interface contextProps {
-    counter: number
-    setCounter: React.Dispatch<React.SetStateAction<number>>
-    products: Array<products>
-    setProducts: React.Dispatch<React.SetStateAction<products[]>>
+    products: Array<Products>
+    setProducts: React.Dispatch<React.SetStateAction<Products[]>>
+    dispatch: React.Dispatch<ActionType>
+    state: any
 }
-
-export const globalContext = createContext<contextProps>({} as contextProps)
 
 interface props {
     children: JSX.Element | JSX.Element[] //si alguna vez queremos pasar por props una funcion tenemos que decirle aqui lo que recibiriamos ya que solo estamos recibiendo jsx.element
 }
 
+export const globalContext = createContext<contextProps>({} as contextProps)
 
 
 function GlobalContext({ children }: props) {
-    const [counter, setCounter] = useState(0)
+    
+    const [products, setProducts] = useState<Products[]>([])
+    const [state, dispatch] = useReducer(cartReducer, cartInitialState)
 
-    const [products, setProducts] = useState<products[]>([])
 
+    
     const getData = async () => {
         const res = await fetchProducts()
         setProducts(res)
         return res
     }
-
+    
     useEffect(() => {
         getData()
     }, [])
 
 
     return (
-        <globalContext.Provider value={{ counter, setCounter, products, setProducts }}>
+        <globalContext.Provider value={{ products, setProducts, dispatch, state }}>
             {children}
         </globalContext.Provider>
     )

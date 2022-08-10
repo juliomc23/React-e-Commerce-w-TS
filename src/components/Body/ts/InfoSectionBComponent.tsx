@@ -5,10 +5,10 @@ import KeyboardArrowDownOutlinedIcon from '@mui/icons-material/KeyboardArrowDown
 
 import '../css/InfoSectionBComponent.css'
 
-import {products} from '../../../interfaces/products'
+import {Products} from '../../../interfaces/products'
 
 interface Props {
-    products: Array<products>
+    products: Array<Products>
 }
 
 function InfoSectionBComponent(props: Props) {

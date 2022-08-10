@@ -1,4 +1,4 @@
-export interface products {
+export interface Products {
     id: number
     img: {
         front: string
@@ -11,4 +11,5 @@ export interface products {
     type: string
     available_colors: number
     sizes: Array<number>
+    qty: number
 }
