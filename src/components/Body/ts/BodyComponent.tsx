@@ -6,6 +6,7 @@ import { useContext } from "react"
 import { globalContext } from "../../../context/GlobalContext"
 
 import '../css/BodyComponent.css'
+import { CartBComponent } from "./CartBComponent"
 
 function BodyComponent() {
 

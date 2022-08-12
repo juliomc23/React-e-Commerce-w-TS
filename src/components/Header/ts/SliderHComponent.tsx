@@ -7,6 +7,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
 import '../css/SliderHComponent.css'
+import { useLocation } from 'react-router-dom';
 
 
 const sliderArray = [
@@ -38,23 +39,29 @@ const sliderArray = [
 
 function SliderHComponent() {
 
-    return (
-        <Swiper
-            modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
-            autoplay={{
-                delay: 10000,
-            }}
-            slidesPerView={1}
-            className='carousel__item'
-        >
-            {sliderArray.map(slide =>
-                <SwiperSlide key={slide.id}>
-                    <p className='p__sliderHtitle'>{slide.title}</p>
-                    <a className='a_sliderHinfo' href=''>More info</a>
-                </SwiperSlide>)}
-        </Swiper>
+    const location = useLocation();
 
-    )
+    if (location.pathname === '/cart') {
+        return null
+    } else {
+        return (
+            <Swiper
+                modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
+                autoplay={{
+                    delay: 10000,
+                }}
+                slidesPerView={1}
+                className='carousel__item'
+            >
+                {sliderArray.map(slide =>
+                    <SwiperSlide key={slide.id}>
+                        <p className='p__sliderHtitle'>{slide.title}</p>
+                        <a className='a_sliderHinfo' href=''>More info</a>
+                    </SwiperSlide>)}
+            </Swiper>
+
+        )
+    }
 }
 
 export default SliderHComponent

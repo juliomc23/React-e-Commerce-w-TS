@@ -1,16 +1,17 @@
-.div_wishcartHeader{
+.div_wishcartHeader {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-grow: 0.02;
 }
 
-.carth__div{
+.carth__div {
     display: flex;
     position: relative;
+    color: black
 }
 
-.cartspan__length{
+.cartspan__length {
     position: absolute;
     top: 9px;
     left: 11px;

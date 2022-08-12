@@ -1,4 +1,4 @@
-.singleproduct__divbody{
+.singleproduct__divbody {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -6,83 +6,81 @@
     margin-bottom: 3.5rem;
 }
 
-.wrapper__singleproduct{
+.wrapper__singleproduct {
     max-width: 90rem;
     display: flex;
 }
 
-.singleproduct__images{
+.singleproduct__images {
     width: calc(100% - 456px);
 }
 
-.img__singleproduct{
+.img__singleproduct {
     width: 27.125rem;
     height: 33.875rem;
     padding-right: 0.75rem;
     padding-bottom: 0.5rem;
 }
 
-
-
-.singleproduct__productinfo{
+.singleproduct__productinfo {
     display: flex;
     flex-direction: column;
     margin-top: 0.75rem;
 }
 
-.singleproduct__productinfo span:nth-child(1){
+.singleproduct__productinfo span:nth-child(1) {
     font-size: 1.75rem;
     margin-bottom: 0.3rem;
 }
 
-.singleproduct__productinfo span:nth-child(2){
+.singleproduct__productinfo span:nth-child(2) {
     margin-bottom: 1rem;
 }
 
-.sizesdiv__singleproduct{
+.sizesdiv__singleproduct {
     margin-top: 2rem;
 }
 
-.size__textdiv{
+.size__textdiv {
     display: flex;
     justify-content: space-between;
     margin-bottom: 1rem;
 }
 
-.size__textdiv span:nth-child(2){
+.size__textdiv span:nth-child(2) {
     color: rgb(151, 151, 151);
     cursor: pointer;
 }
 
-.sizeselector__div{
+.sizeselector__div {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 7px;
 }
 
-.divsize__singleproduct{
+.divsize__singleproduct {
     border: 1px solid rgb(226, 226, 226);
     width: 7.688rem;
     height: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius:0.5rem;
+    border-radius: 0.5rem;
     cursor: pointer;
 }
 
-.divsize__singleproduct:hover{
+.divsize__singleproduct:hover {
     border: 1px solid black;
 }
 
-.buttonsdiv__singleproduct{
+.buttonsdiv__singleproduct {
     display: flex;
     flex-direction: column;
     margin-top: 2rem;
     justify-content: center;
 }
 
-.button__singleproduct{
+.button__singleproduct {
     height: 3.938rem;
     display: flex;
     align-items: center;
@@ -95,7 +93,7 @@
     cursor: pointer;
 }
 
-.addtocart{
+.addtocart {
     background-color: black;
     color: white;
 }
